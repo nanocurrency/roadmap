@@ -18,7 +18,7 @@ Because the roadmap has a mix of broader and more granular issues across a varie
 
 ## Target releases
 
-Each issues is added to a column representing release it is currently targeted to be included in. As resources and scope shift during development, all features are subject to target release changes (see the [disclaimer](#disclaimer). As changes to the ticket are tracked below the description, each change can be easily followed.
+Each issue is added to a column representing release it is currently targeted to be included in. As resources and scope shift during development, all features are subject to target release changes (see the [disclaimer](#disclaimer)). As changes to the ticket are tracked below the description, each change can be easily followed.
 
 In addition to version-specific columns, the **Exploratory** column is reserved for features which have a high interest and are being considered, but which have no estimate target release yet.
 
