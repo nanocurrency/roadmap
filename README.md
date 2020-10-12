@@ -18,7 +18,7 @@ Because the roadmap has a mix of broader and more granular issues across a varie
 
 ## Target releases
 
-Each issue is added to a column representing release it is currently targeted to be included in. As resources and scope shift during development, all features are subject to target release changes (see the [disclaimer](#disclaimer)). As changes to the ticket are tracked below the description, each change can be easily followed.
+Columns in the project with a version number (e.g. `V23.0`) will contain features currently targeted to be included in that release. As resources and scope shift during development, all features are subject to target release changes (see the [disclaimer](#disclaimer)). As changes to the ticket are tracked below the description, each change can be easily followed.
 
 In addition to version-specific columns, the **Exploratory** column is reserved for features which have a high interest and are being considered, but which have no estimate target release yet.
 
@@ -45,7 +45,9 @@ The following cover the major functional areas of the Nano node and help illustr
 
 ## Network upgrades
 
-Due to the Nano network being decentralized and having to manage global consensus, in order to ensure consistency and efficiency certain updates to the node must be enabled in phases and using mechanisms that activate them after initial software upgrade. Explained below are the labels assigned to each ticket requiring that network upgrade type, along with a brief explanation of how they are handled. More details on the various methods and past upgrades can be found in the [Network Upgrades documentation](https://docs.nano.org/releases/network-upgrades/).
+Due to the Nano network being decentralized and having to manage global consensus, in order to ensure consistency and efficiency certain updates to the node must be enabled in phases and using mechanisms that activate them after initial software upgrade. Columns in the project beginning with `Upgrade:` represent time between node releases where a specific network upgrade is being targeted. All network upgrades are subject to timing changes (see the [disclaimer](#disclaimer)). Issues added to these columns will be tied to their related features and contain pertinent details about the upgrade.
+
+Labels are also used on tickets to show the type of network upgrade required. Below these labels are listed with a brief explanation of how each upgrade type is typically handled. More details on the various methods and past upgrades can be found in the [Network Upgrades documentation](https://docs.nano.org/releases/network-upgrades/).
 
 * **[Phased node upgrades](https://docs.nano.org/releases/network-upgrades/#phased-node-upgrades)** (label: `phased node upgrade`) - requiring multiple node upgrades before feature ready for activating; often in combination with other upgrade methods
 
@@ -58,4 +60,4 @@ Due to the Nano network being decentralized and having to manage global consensu
 
 ## Disclaimer 
 
-Any statement in this repository that is not purely historical is considered a forward-looking statement. Forward-looking statements included in this repository are based on information available to the Nano Foundation and community members managing the roadmap as of the date they are made, and the Nano Foundation and community members assumes no obligation to update any forward-looking statements. The forward-looking roadmap does not represent a commitment, guarantee, obligation or promise to deliver any feature, or to deliver any feature by any particular date, and is intended to outline the general development plans. Nobody should not rely on this roadmap to make any decision related to the Nano network or otherwise.
+Any statement in this repository that is not purely historical is considered a forward-looking statement. Forward-looking statements included in this repository are based on information available to the Nano Foundation and community members managing the roadmap as of the date they are made, and the Nano Foundation and community members assumes no obligation to update any forward-looking statements. The forward-looking roadmap does not represent a commitment, guarantee, obligation or promise to deliver any feature or upgrade, or to deliver any feature or upgrade by any particular date, and is intended to outline the general development plans. Nobody should rely on this roadmap to make any decision related to the Nano network or otherwise.
