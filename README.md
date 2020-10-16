@@ -10,8 +10,6 @@ If you have questions or comments about the roadmap we'd encourage you to join d
 
 Because the roadmap has a mix of broader and more granular issues across a variety of functional areas it can be useful to filter to a particular set of items. This can be done with the use of labels:
 
-* The **broad feature** tickets will have an `epic` label attached, while more granular items will not contain this label (`-label:epic` will show all but `epic` labeled issues)
-
 * The **functional areas** particular features target will be added as labels as well to allow for better grouping. See below for a guide to functional areas.
 
 * The **network upgrade** details will also be labeled due to some functionality requiring multiple phases to fully enable across the network. See below for a guide on how network upgrades are labeled.
