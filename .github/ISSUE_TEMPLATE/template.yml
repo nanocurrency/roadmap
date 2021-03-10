@@ -1,0 +1,27 @@
+name: New Roadmap Item
+description: Form for Nano Foundation to add a new roadmap item
+title: ""
+issue_body: true
+body:
+- type: markdown
+  attributes:
+    value: |
+      NOTE: This is not a form to suggest new features.Consultation with the Nano Foundation must be done before new roadmap items are submitted. Go to the [Nano Forum](https://forum.nano.org) to suggest or discuss items more generally.
+- type: textarea
+  attributes:
+    label: Summary
+    description: Brief summary of what the feature or functionailty this item will provide.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: What problem would be solved by this feature?
+    description: Describe the problem this feature is aiming to solve and the benefits it will bring to the network.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Related Links
+    description: Add any links related to the roadmap item for further review and research. Use markdown format for links.
+  validations:
+    required: true
