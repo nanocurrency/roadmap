@@ -24,19 +24,21 @@ In addition to version-specific columns, the **Exploratory** column is reserved 
 
 The following cover the major functional areas of the Nano node and help illustrate progress in a specific area through grouping of tickets under the related labels.
 
-* **Protocol messaging** (label: `protocol`) - updates to the requirements for direct communication between nodes on the network
-
-* **ORV consensus** (label: `orv consensus`) - changes to the mechanisms contributing to consensus including voting behavior, weight and quorum calculations and election management 
-
 * **Boostrapping** (label: `bootstrapping`) - modifications to how an out-of-sync node gets their missing blocks from the network to reconciles their ledger
 
-* **Peering & network structure** (label: `peering & network`) - the mechanisms for establishing individual connections between nodes based on broader network structure rules
-
-* **Node communications** (label: `node comms`) - updates to the IPC, RPC, CLI, WebSocket and other methods used for communicating commands to the node
+* **Documentation** (label: `documentation`) - significant updates to documentation to clarify protocol or node functionality
 
 * **Ledger management** (label: `ledger management`) - changes affecting the ledger structure, contents, formats and other database related details
 
 * **Node architecture** (label: `node architecture`) - adjustments to how broad components are managed within or by the node
+
+* **Node communications** (label: `node comms`) - updates to the IPC, RPC, CLI, WebSocket and other methods used for communicating commands to the node
+
+* **ORV consensus** (label: `orv consensus`) - changes to the mechanisms contributing to consensus including voting behavior, weight and quorum calculations and election management 
+
+* **Peering & network structure** (label: `peering & network`) - the mechanisms for establishing individual connections between nodes based on broader network structure rules
+
+* **Protocol messaging** (label: `protocol`) - updates to the requirements for direct communication between nodes on the network
 
 * **Work generation** (label: `work generation`) - modifications to the methods generating valid work for transactions
 
