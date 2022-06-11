@@ -1,6 +1,6 @@
 # Nano public roadmap
 
-This repository holds the broader connecting issues and network upgrade details found in the [official Nano node & protocol roadmap](https://github.com/orgs/nanocurrency/projects/5). Although issues from other repositories can be included in the roadmap, they will be of a more granular nature than the items found here. This extra layer provides more flexibility for oulining progress on features spanning multiple releases or network upgrades, while keeping issue backlogs cleaner in all repositories.
+This repository holds the broader connecting issues and network upgrade details found in the [official Nano node & protocol roadmap](https://github.com/orgs/nanocurrency/projects/5). Although issues from other repositories can be included in the roadmap, they will be of a more granular nature than the items found here. This extra layer provides more flexibility for outlining progress on features spanning multiple releases or network upgrades, while keeping issue backlogs cleaner in all repositories.
 
 Issues here are read-only with conversations locked as the discussions will be more helpful if done within the more granular tickets found in other repositories.
 
